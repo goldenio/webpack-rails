@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'webpack/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'webpack-rails'
+  spec.name          = 'golden-webpack-rails'
   spec.version       = Webpack::Rails::VERSION
   spec.authors       = ['Tse-Ching Ho']
   spec.email         = ['tsechingho@gmail.com']

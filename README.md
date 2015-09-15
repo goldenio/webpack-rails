@@ -7,7 +7,7 @@ Webpack for Rails in hybridization or replacement way.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'webpack-rails'
+gem 'golden-webpack-rails'
 ```
 
 And then execute:
