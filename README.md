@@ -12,14 +12,40 @@ gem 'webpack-rails'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install webpack-rails
+```
+$ bundle
+```
 
 ## Usage
 
+### Hybridization mode
+
+In your application root path, execute generator with a perfered path name like `client`.
+
+```
+$ bundle exec rails generate webpack:install client
+```
+
+It will create a `client` path to be your webpack root path and install npm modules inside.
+
+Start develop servers with [foreman](https://github.com/ddollar/foreman).
+
+```
+$ gem install foreman
+$ foreman start -f Procfile.dev
+```
+
+See live reload web page in browser.
+
+```
+$ open http://localhost:4000/webpack-dev-server/
+```
+
+Happy coding with webpack.
+
+### Replacement mode
+
+It's still working on.
 
 ## Development
 

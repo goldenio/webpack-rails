@@ -1,0 +1,29 @@
+Description:
+    It will generate config and rake for use.
+
+Example:
+    rails generate webpack:install
+
+    This will create/modify:
+        .gitignore
+        Procfile.dev
+        app/assets/javascripts/application.js
+        app/assets/javascripts/generated/.gitkeep
+        client/assets/images
+        client/assets/javascripts/app.js
+        client/assets/stylesheets/app.css
+        client/assets/stylesheets/app.sass
+        client/assets/stylesheets/app.scss
+        client/config/rails_only.js
+        client/config/webpack/common.js
+        client/config/webpack/font.js
+        client/config/webpack/hot.js
+        client/config/webpack/image.js
+        client/config/webpack/rails.js
+        client/config/webpack/react.js
+        client/config/webpack/sass.js
+        client/config/webpack_only.js
+        client/package.json
+        client/public/index.html
+        client/server.js
+        config/application.rb
