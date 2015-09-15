@@ -57,6 +57,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/goldenio/webpack-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
+## Acknowledgement
+
+This gem is inspired by [Fast Rich Client Rails Development With Webpack and the ES6 Transpiler](http://forum.railsonmaui.com/t/fast-rich-client-rails-development-with-webpack-and-the-es6-transpiler/327) and [it's tutorial](https://github.com/shakacode/react-webpack-rails-tutorial).
 
 ## License
 
