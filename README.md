@@ -2,6 +2,16 @@
 
 Webpack for Rails in hybridization or replacement way.
 
+## Advantage
+
+Managing libraries with [bundler](https://github.com/bundler/bundler) and [npm](https://github.com/npm/npm) would make project more convenient and consistent.
+
+![npm & bundler](npm-bundler.png)
+
+The frontend and backend team could work together more smoothly with [webpack](https://github.com/webpack/webpack) in one project.
+
+![webpack-pipeline](webpack-pipeline.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
